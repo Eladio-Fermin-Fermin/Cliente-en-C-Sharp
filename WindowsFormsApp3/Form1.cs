@@ -39,8 +39,7 @@ namespace WindowsFormsApp3
                 {
                     //outputFile.WriteLine(linea);
                     byte[] enviar_info = new byte[2048];
-                    string data = "";
-
+                    
                     enviar_info = Encoding.Default.GetBytes(linea);
 
                     listen.Send(enviar_info);
