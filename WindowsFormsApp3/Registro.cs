@@ -13,9 +13,9 @@ using System.Net;
 
 namespace WindowsFormsApp3
 {
-    public partial class Form1 : Form
+    public partial class Registro : Form
     {
-        public Form1()
+        public Registro()
         {
             InitializeComponent();
         }
