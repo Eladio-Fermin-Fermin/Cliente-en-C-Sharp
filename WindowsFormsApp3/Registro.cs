@@ -32,7 +32,6 @@ namespace WindowsFormsApp3
       
                 foreach(string linea in lineas)
                 {
-                    //outputFile.WriteLine(linea);
                     byte[] enviar_info = new byte[2048];
                     enviar_info = Encoding.Default.GetBytes(linea);
                     listen.Send(enviar_info);
